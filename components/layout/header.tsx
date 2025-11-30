@@ -36,11 +36,11 @@ export function Header() {
                     : "bg-transparent border-transparent py-4"
             )}
         >
-            <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Top">
+            <nav className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12" aria-label="Top">
                 <div className="flex w-full items-center justify-between">
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center space-x-3 group">
-                            <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-linear-to-br from-blue-600 to-purple-600 shadow-lg shadow-blue-900/20 group-hover:shadow-blue-900/40 transition-all duration-300 group-hover:scale-105">
+                            <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-purple-600 shadow-lg shadow-blue-900/20 group-hover:shadow-blue-900/40 transition-all duration-300 group-hover:scale-105">
                                 <svg
                                     className="w-6 h-6 text-white"
                                     fill="none"
@@ -55,7 +55,7 @@ export function Header() {
                                     />
                                 </svg>
                             </div>
-                            <span className="text-xl font-bold bg-clip-text text-transparent bg-linear-to-r from-white to-gray-400 group-hover:from-blue-400 group-hover:to-purple-400 transition-all duration-300 hidden sm:block">
+                            <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400 group-hover:from-blue-400 group-hover:to-purple-400 transition-all duration-300 hidden sm:block">
                                 MovieDB Explorer
                             </span>
                         </Link>
