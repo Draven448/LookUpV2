@@ -10,7 +10,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 py-8 md:py-12">
             {/* Header Section */}
             <div className="mb-12 md:mb-16 text-center">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-linear-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
                     About MovieDB Explorer
                 </h1>
                 <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
@@ -20,7 +20,7 @@ export default function AboutPage() {
 
             {/* Mission Section */}
             <div className="mb-16">
-                <div className="bg-gradient-to-br from-blue-500/10 to-purple-500/10 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-blue-500/20 shadow-xl">
+                <div className="bg-linear-to-br from-blue-500/10 to-purple-500/10 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-blue-500/20 shadow-xl">
                     <h2 className="text-3xl font-bold text-white mb-6">Our Mission</h2>
                     <p className="text-lg text-gray-300 leading-relaxed mb-4">
                         At MovieDB Explorer, we believe that everyone deserves to find their next favorite movie. Our mission is to make movie discovery simple, enjoyable, and accessible to everyone.
@@ -137,7 +137,7 @@ export default function AboutPage() {
 
             {/* Call to Action */}
             <div className="text-center">
-                <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 md:p-12 shadow-2xl">
+                <div className="bg-linear-to-r from-blue-600 to-purple-600 rounded-2xl p-8 md:p-12 shadow-2xl">
                     <h2 className="text-3xl font-bold text-white mb-4">Start Exploring Today</h2>
                     <p className="text-lg text-blue-100 mb-6 max-w-2xl mx-auto">
                         Join thousands of movie enthusiasts who use MovieDB Explorer to discover their next favorite film.

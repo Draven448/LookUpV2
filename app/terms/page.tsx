@@ -10,7 +10,7 @@ export default function TermsPage() {
         <div className="mx-auto max-w-4xl px-6 sm:px-8 lg:px-12 py-8 md:py-12">
             {/* Header Section */}
             <div className="mb-12 text-center">
-                <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
+                <h1 className="text-4xl md:text-5xl font-bold bg-linear-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
                     Terms of Service
                 </h1>
                 <p className="text-gray-400">Last updated: {new Date().toLocaleDateString()}</p>

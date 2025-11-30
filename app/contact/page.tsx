@@ -43,7 +43,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 py-8 md:py-12">
             {/* Header Section */}
             <div className="mb-12 md:mb-16 text-center">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-linear-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
                     Get in Touch
                 </h1>
                 <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
@@ -140,7 +140,7 @@ export default function ContactPage() {
                         <button
                             type="submit"
                             disabled={isSubmitting}
-                            className="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-medium rounded-lg hover:from-blue-700 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                            className="w-full px-6 py-3 bg-linear-to-r from-blue-600 to-purple-600 text-white font-medium rounded-lg hover:from-blue-700 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                         >
                             {isSubmitting ? "Sending..." : "Send Message"}
                         </button>
@@ -153,7 +153,7 @@ export default function ContactPage() {
                         <h2 className="text-2xl font-bold text-white mb-6">Contact Information</h2>
                         <div className="space-y-6">
                             <div className="flex items-start space-x-4">
-                                <div className="flex-shrink-0 w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center">
+                                <div className="shrink-0 w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center">
                                     <svg className="w-6 h-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                     </svg>
@@ -165,7 +165,7 @@ export default function ContactPage() {
                             </div>
 
                             <div className="flex items-start space-x-4">
-                                <div className="flex-shrink-0 w-12 h-12 bg-purple-500/10 rounded-lg flex items-center justify-center">
+                                <div className="shrink-0 w-12 h-12 bg-purple-500/10 rounded-lg flex items-center justify-center">
                                     <svg className="w-6 h-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -178,7 +178,7 @@ export default function ContactPage() {
                             </div>
 
                             <div className="flex items-start space-x-4">
-                                <div className="flex-shrink-0 w-12 h-12 bg-pink-500/10 rounded-lg flex items-center justify-center">
+                                <div className="shrink-0 w-12 h-12 bg-pink-500/10 rounded-lg flex items-center justify-center">
                                     <svg className="w-6 h-6 text-pink-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
@@ -191,7 +191,7 @@ export default function ContactPage() {
                         </div>
                     </div>
 
-                    <div className="bg-gradient-to-br from-blue-500/10 to-purple-500/10 backdrop-blur-sm rounded-2xl p-8 border border-blue-500/20 shadow-xl">
+                    <div className="bg-linear-to-br from-blue-500/10 to-purple-500/10 backdrop-blur-sm rounded-2xl p-8 border border-blue-500/20 shadow-xl">
                         <h3 className="text-xl font-bold text-white mb-4">Follow Us</h3>
                         <p className="text-gray-400 mb-6">Stay connected on social media for updates and movie recommendations.</p>
                         <div className="flex space-x-4">
